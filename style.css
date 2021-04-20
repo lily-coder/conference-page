@@ -27,7 +27,15 @@ main {
   padding-right: 10px;
 }
 
+.bg-iconspage {
+  background-image: url("");
+}
+
 /* PROGRAM SECTION */
+.bg-web {
+  background-image: url("img/bg-web.jpg");
+}
+
 .container {
   margin-right: auto;
 }
