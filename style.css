@@ -10,17 +10,58 @@
   color: #D3D3D3;
 }
 
+.whitee {
+  color: white;
+}
+
 .bg-blackk {
   background-color: #272A31;
 }
 
+.bg-greyy {
+  background-color: rgb(121, 116, 116, 0.5);
+}
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* PROGRAM SECTION */
+.container {
+  margin-right: auto;
+}
+
+.iconn {
+  width: 15%;
+  padding-left: 5px;
+}
+
+.iconn-tag {
+  width: 25%;
+}
+
+.iconn-text {
+  width: 60%;
+}
+
+.prog {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  margin: 5px;
+}
+
+/* FEATURED SPEAKERS SECTION */
+
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
+    padding-left: 10px;
   }
 
 .imggg {
   width: 30%;
+  max-height: 200px;
 }
 
 .imgg {
@@ -32,3 +73,4 @@
 .fs-14 {
   font-size: 14px;
 }
+
