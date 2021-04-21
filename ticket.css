@@ -1,0 +1,36 @@
+.blackk {
+    color: #272A31;
+  }
+  
+  .orangee {
+    color: #EC5242;
+  }
+  
+  .greyy {
+    color: #D3D3D3;
+  }
+  
+  .whitee {
+    color: white;
+  }
+  
+  .bg-blackk {
+    background-color: #272A31;
+  }
+  
+  .bg-greyy {
+    background-color: rgb(121, 116, 116, 0.5);
+  }
+  
+  .headerr {
+    padding: 10px;
+  }
+  
+  main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .bg-iconspage {
+    background-image: url("");
+  }
