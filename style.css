@@ -26,6 +26,12 @@
   padding: 10px;
 }
 
+.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
 main {
   padding-left: 10px;
   padding-right: 10px;
