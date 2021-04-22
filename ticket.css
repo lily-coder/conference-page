@@ -23,12 +23,13 @@
 }
 
 @font-face {
-  font-family: cocogoose;
+  font-family: Cocogoose;
   src: url(Cocogoose\ Pro\ Semilight-trial.ttf);
 }
 
-.headerr {
+.header {
   padding: 10px;
+  font-family: Cocogoose;
 }
 
 .navbar-toggler {
