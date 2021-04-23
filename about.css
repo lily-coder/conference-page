@@ -28,6 +28,18 @@
   .headerr {
     padding: 10px;
   }
+
+  .top-navb {
+    display: flex;
+    flex-direction:row;
+    padding: 14px;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+  
+  .top-navb a {
+    margin-right: 20px;
+  }  
   
   .navbar-toggler {
     outline: none;
@@ -47,3 +59,20 @@
   .fs-14 {
       font-size: 14px;
   }
+
+  /* FOOTER SECTION */
+
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    height: 550px;
+  }
+}
+@media (min-width: 768px) {
+.footer {
+  height: 550px;
+}
+}
