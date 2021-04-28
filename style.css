@@ -27,17 +27,33 @@
   padding-bottom: 50px;
 }
 
-.top-navb {
-  display: flex;
-  flex-direction:row;
-  padding: 14px;
-  justify-content: flex-end;
-  align-items: baseline;
+.icon-top {
+  justify-content: flex-start;
+  
 }
 
-.top-navb a {
+.top-navb {
+  display: flex;
+  justify-content: stretch;
+}
+
+.link-top {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px; 
+  top: 10px;
+  align-items: center;
+}
+
+.fa {
+  padding-top: 12px;
+}
+
+.top-navb a { 
   margin-right: 20px;
 }
+
 
 .navbar-toggler {
   outline: none;
@@ -82,7 +98,7 @@ main {
 }
 
 .iconn-img {
-  width: 100%;
+  width: 50px;
 }
 
 .iconn-tag {
@@ -92,22 +108,6 @@ main {
 
 .iconn-text {
   width: 60%;
-}
-
-.progs {
-  padding-left: 40px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  padding-bottom: 60px;
-  padding-top: 60px;
-  margin: auto;
-}
-
-.prog {
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 5px;
-  margin: 5px;
 }
 
 /* FEATURED SPEAKERS SECTION */
@@ -137,7 +137,7 @@ main {
 }
 
 .btn-orangee {
-  background-color: #EC5242; 
+  background-color: #ec5242; 
 }
 
 .btn {
